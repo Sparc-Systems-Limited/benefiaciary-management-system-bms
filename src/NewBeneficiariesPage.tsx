@@ -65,7 +65,7 @@ const NewBeneficiariesPage: React.FC = () => {
                         Change Payment Token
                       </button>
                     ) : (
-                          <button onClick={() => window.location.href = 'http://localhost:3007/auth?payeeId='+ beneficiary.id} className="w3-button w3-red">Register Token</button>                
+                          <button onClick={() => window.location.href = 'http://brp.sparcsystems.africa/auth?payeeId='+ beneficiary.id} className="w3-button w3-red">Register Token</button>                
 
 
                     )}

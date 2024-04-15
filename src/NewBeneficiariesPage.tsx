@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const NewBeneficiariesPage: React.FC = () => {
   // Simulated data from API
   const [beneficiaries, setBeneficiaries] = useState([
-    { id: '256784666410', name: 'John Doe', token: '', status: 'Not Registered' },
+    { id: 'UG680720000289000000001', name: 'John Doe', token: '', status: 'Not Registered' },
     { id: 'CM2903E3E0WE', name: 'Alice Smith', token: '', status: 'Not Registered' },
     { id: '4589712365XY', name: 'Michael Johnson', token: '', status: 'Not Registered' },
 { id: 'QR7890PO123L', name: 'Emily Davis', token: '', status: 'Not Registered' },
@@ -65,7 +65,7 @@ const NewBeneficiariesPage: React.FC = () => {
                         Change Payment Token
                       </button>
                     ) : (
-                          <button onClick={() => window.location.href = 'http://brp.sparcsystems.africa/auth?payeeId='+ beneficiary.id} className="w3-button w3-red">Register Token</button>                
+                          <button onClick={() => window.location.href = 'http://localhost:3007/auth?payeeId='+ beneficiary.id} className="w3-button w3-red">Register Token</button>                
 
 
                     )}

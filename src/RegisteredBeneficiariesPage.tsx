@@ -5,7 +5,7 @@ import Header from './Header';
 const RegisteredBeneficiariesPage: React.FC = () => {
   // Simulated data from API
   const [beneficiaries, setBeneficiaries] = useState([
-    { id: '256784666410', name: 'John Doe', token: 'tE0F0cbxGJ',  status: 'Registered' },
+    { id: 'UG680720000289000000001', name: 'John Doe', token: 'CM101343JW9EWE24',  status: 'Registered' },
     { id: '256784666443', name: 'Alice Smith', token: 'CM2903E3E0WE',  status: 'Registered' },
     { id: '256784666411', name: 'Michael Johnson', token: '4589712365XY', status: 'Registered' },
     { id: '256784666412', name: 'Emily Davis', token: 'QR7890PO123L', status: 'Registered' },
